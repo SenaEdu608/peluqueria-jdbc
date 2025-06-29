@@ -1,0 +1,23 @@
+PLAN TÉCNICO PARA LA CONSTRUCCIÓN DEL MÓDULO DE SERVICIOS - JDBC
+
+Aprendiz: John Jairo Zamudio Agudelo  
+Evidencia: GA7-220501096-AA2-EV01  
+Proyecto: Gestión de servicios para aplicación de peluquería
+
+Tecnología seleccionada: Java SE 17 + JDBC  
+Base de datos: MySQL  
+IDE: Visual Studio Code  
+Control de versiones: Git + GitHub
+
+Módulo implementado:
+Gestión de servicios con operaciones CRUD (crear, leer, actualizar, eliminar) desde consola, 
+con conexión JDBC a base de datos relacional MySQL.
+
+Clases desarrolladas:
+- Servicio.java: modelo de entidad
+- ServicioDAO.java: operaciones JDBC
+- Main.java: menú interactivo por consola
+
+El código sigue estándares de codificación con nombres descriptivos en español, modularización y comentarios.
+
+El módulo fue probado exitosamente usando PowerShell.
