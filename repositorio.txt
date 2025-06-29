@@ -1,2 +1,2 @@
 Repositorio GitHub del proyecto:
-https://github.com/Spiner007/peluqueriaApp
+https://github.com/SenaEdu608/peluqueria-jdbc.git

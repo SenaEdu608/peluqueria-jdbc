@@ -21,14 +21,16 @@ Este proyecto implementa un módulo de software que realiza conexión a una base
 
 ## Estructura del proyecto
 
+```
 peluqueriaAPP-jdbc/
 ├── bin/ ← Clases compiladas (.class)
 ├── lib/ ← Conector JDBC
 ├── src/ ← Código fuente
-│ ├── Main.java
-│ ├── Servicio.java
-│ └── ServicioDAO.java
+│   ├── Main.java
+│   ├── Servicio.java
+│   └── ServicioDAO.java
 └── README.md
+```
 
 ## Base de datos
 
@@ -41,19 +43,22 @@ CREATE TABLE servicios (
     nombre VARCHAR(100) NOT NULL,
     precio DECIMAL(10,2) NOT NULL
 );
-
+```
 
 ## Ejecución
 
-1.Compilar:
+1. Compilar:
 
+```bash
 javac -cp lib/mysql-connector-j-9.3.0.jar -encoding UTF-8 -d bin src/*.java
+```
 
-2.Ejecutar (PowerShell):
+2. Ejecutar (PowerShell):
 
+```bash
 java -cp "bin`;lib/mysql-connector-j-9.3.0.jar" Main
-
+```
 
 ## Enlace del repositorio
 
-https://github.com/Spiner007/peluqueriaApp
+[https://github.com/SenaEdu608/peluqueria-jdbc.git](https://github.com/SenaEdu608/peluqueria-jdbc.git)
