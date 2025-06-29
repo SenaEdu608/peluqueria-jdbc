@@ -43,7 +43,7 @@ CREATE TABLE servicios (
 );
 
 
-Ejecución
+## Ejecución
 
 1.Compilar:
 
@@ -54,6 +54,6 @@ javac -cp lib/mysql-connector-j-9.3.0.jar -encoding UTF-8 -d bin src/*.java
 java -cp "bin`;lib/mysql-connector-j-9.3.0.jar" Main
 
 
-Enlace del repositorio
+## Enlace del repositorio
 
 https://github.com/Spiner007/peluqueriaApp
